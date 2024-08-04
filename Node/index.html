@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bg-black{
+            background-color: black
+        }
+        .color-white{
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body class="bg-black">
+    <div>
+        <h1 style="color: aliceblue;">Hello Dhruba</h1>
+        <h2>
+            <div class="color-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta provident in, impedit a magni repellendus modi qui rem odio officia quidem repellat aliquid quos sunt corrupti libero est vel dicta?</div>
+            <div class="color-white">Error dolor maxime nostrum incidunt mollitia consectetur, dignissimos nam rem aperiam vel saepe ad quas delectus, alias illo quisquam quidem totam cupiditate laboriosam expedita. Illo atque dignissimos iste dolorum omnis?</div>
+            <div class="color-white">Atque incidunt et dolorum error, dolor porro animi ad libero? Aliquam, possimus expedita dicta ratione cumque quia corporis ipsa quaerat quo pariatur? Totam harum officiis, vero architecto quibusdam voluptate placeat.</div>
+            <div class="color-white">Asperiores officia nisi dolor dolorum, consequuntur ducimus incidunt quidem at cumque totam omnis cupiditate? Dolorum officia, inventore eius atque impedit dignissimos similique quos facere, provident officiis, saepe soluta rerum repellendus.</div>
+            <div class="color-white">Impedit culpa perspiciatis itaque deserunt optio ea nam perferendis harum veniam expedita ipsa excepturi quisquam quaerat fugit nesciunt beatae, voluptatum laudantium consequuntur dolores eius totam doloremque sequi! Animi, dolorem at!</div>
+        </h2>
+        <h3 class="color-white">We are learning DOM <span hidden="none">Testing</span></h3>
+
+        <ul>
+            <li class="color-white">One</li>
+            <li class="color-white">Two</li>
+            <li class="color-white">Three</li>
+            <li class="color-white">Four</li>
+            <li class="color-white">Five</li>
+        </ul>
+    </div>
+
+    <!-- <div style="color: aliceblue;">Hello Bro</div> -->
+</body>
+
+<script>
+
+    // console.log(document.body.children[0].children[2])
+    // document.body.children[0].children[2].innerHTML = "Mastering DOM"
+    // console.log(document.querySelector("h1").parentElement)
+    // console.log(document.querySelector("li"))
+
+
+
+    //edit
+    // const li = document.querySelector("li")
+    
+    // const newLi = document.createElement("li")
+    // newLi.style.color="white"
+    // newLi.appendChild(document.createTextNode("Dhruba"))
+   
+    // li.replaceWith(newLi)
+
+    //remove
+    //const li = document.querySelector("li:nth-child(1)")    //selecting nth list item
+    const li = document.querySelector("li:last-child")
+    li.remove()
+   
+    
+
+    // const div = document.createElement("div")
+    // div.setAttribute("id","div-id")
+    // div.setAttribute("className","div-class")
+    // // div.setAttribute("innerText","What's up Dhruba") //As innerText is not an attribute
+    // const textNode = document.createTextNode("What's up Dhruba")
+    // div.appendChild(textNode)
+    // // div.innerText="What's up Dhruba"
+    // div.style.color="white"
+    // document.body.appendChild(div)
+</script>
+</html>
